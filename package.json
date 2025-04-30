@@ -1,0 +1,17 @@
+{
+  "name": "xeshu-chatgpt-bot",
+  "version": "1.0.0",
+  "description": "A WhatsApp Bot integrated with ChatGPT (OpenAI)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.2",
+    "dotenv": "^16.4.0",
+    "openai": "^4.19.1"
+  }
+}
